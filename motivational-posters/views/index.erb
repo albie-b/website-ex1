@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="/css/application.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/javascripts/support.js"></script>
+  <script src="/javascripts/application.js"></script>
   <title>Motivational Posters</title>
 </head>
 <body>
-  <h1>Motivational Posters</h1>
-  <p>By tonight I'll have a fully-fucntioning website!</p>
+  <header>
+      <h1>Motivational Posters</h1>
+  </header>
+  <section id="select-image">
+      <h2>Step 1. Select an image<h2>
+      <p>Enter a keyword to search for image</p>
+      <form id="search-form">
+        <input id="search-term" type="text">
+        <input type="submit" value="Go!">
+      </form>
+      <div id="search-results"></div>
+      <div id="google-branding"></div>
+  </section>
 </body>
 </html>
